@@ -1,0 +1,23 @@
+/* universal selector  */
+*{
+    font-family: cursive;
+}
+/* element selecter  */
+body{
+    background-color: cadetblue;
+}
+p{
+    font-weight: bold;
+}
+/* class selector */
+.para{
+    font-size: 30px;
+}
+/* id selector */
+#p1{
+    color: beige;
+}
+/* group selector  */
+#p2,#p3{
+    color: rgba(7, 48, 56, 0.937);
+}
