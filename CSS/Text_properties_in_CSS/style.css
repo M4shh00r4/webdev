@@ -1,0 +1,35 @@
+body{
+    background-color: bisque;
+}
+h1{
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 30px;
+    color: rgb(70, 63, 54);
+    text-shadow: 5px 5px 5px;
+    text-align: center;
+}
+.para{
+    font-family: cursive;
+    margin: 20px;
+}
+#p1{
+    background:linear-gradient(to bottom, rgba(179, 149, 216, 0.889),rgb(81, 71, 95)
+    ),rgb(37, 25, 37)
+}
+#p2{
+    background:radial-gradient(rgb(255, 197, 207),rgb(173, 86, 122)
+    
+    )
+}
+#p3{
+color: rgb(38, 40, 56);
+animation:manha_animates 3s infinite ;
+}
+@keyframes manha_animates{
+    from{
+        background-color: rgb(148, 222, 222);
+    }
+    to{
+        background-color: rgb(135, 139, 196);
+    }
+}
