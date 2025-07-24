@@ -1,0 +1,41 @@
+/* universal selector */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    animation:manha_animates 3s infinite ;
+}
+h1{
+    font-family: "Delius Swash Caps", cursive;
+    font-size: 30px;
+    color: rgb(124, 88, 120);
+    text-shadow: 5px 5px 5px;
+    text-align: center;
+}
+.para{
+    font-family: cursive;
+    margin: 20px;
+}
+#p1{
+    background:linear-gradient(to bottom, rgba(179, 149, 216, 0.889),rgb(81, 71, 95)
+    ),rgb(37, 25, 37)
+}
+#p2{
+    background:radial-gradient(rgb(197, 212, 255),rgb(46, 117, 112)
+    
+    )
+}
+
+@keyframes manha_animates{
+    from{
+        background-color: rgb(243, 200, 200);
+    }
+    to{
+        background-color: rgb(230, 151, 210);
+    }
+}
