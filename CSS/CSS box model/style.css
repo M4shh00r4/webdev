@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+margin: 0px;
+}
+hr{
+    color: black;
+}
+h1{
+    text-align: center;
+    background-color: beige;
+}
+.box1{
+    border: 5px solid;
+    background-color: aquamarine;
+    margin: 20px 50px 100px 5px;
+    padding: 20px 50px 100px 5px;
+}
+.box2{
+    border: 10px solid rgb(144, 105, 171);
+    background-color: rgb(251, 208, 245);
+    margin-top: 50px;
+    margin: 50px 0px 0px 10px;
+    padding-left: 20px;
+    padding: 0px 30px 0px 20px;
+}
+.pic1{
+    float: left;
+}
+.pic2{
+    float: right;
+}
