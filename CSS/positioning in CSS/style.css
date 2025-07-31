@@ -1,0 +1,45 @@
+.static{
+    background-color: aquamarine;
+}
+.fixed{
+    position: fixed;
+    z-index: 10;
+}
+.relative{
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+.absolute{
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+}
+.sticky{
+    margin-top: 100px;
+    background-color: bisque;
+    top: 0px;
+    position: sticky;
+}
+.opacity{
+    height: 100px;
+    width: 500px;
+    border: 10px solid rgb(65, 65, 97);
+    background-color: rgb(161, 154, 255);
+    
+}
+.opacity1{
+    opacity: 0.2;
+}
+.opacity2{
+    opacity: 0.4;
+}
+.opacity3{
+    opacity: 0.6;
+}
+.opacity4{
+    opacity: 0.8;
+}
+.opacity5{
+    opacity: 1.0;
+}
