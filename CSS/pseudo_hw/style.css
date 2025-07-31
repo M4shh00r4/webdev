@@ -1,0 +1,31 @@
+body {
+    font-family: "Delius Swash Caps", cursive;
+    background-color: rgb(254, 233, 219);
+    color: rgb(119, 112, 98);
+}
+h1 {
+    color: rgb(182, 166, 240);
+}
+a{
+    color: rgb(209, 137, 161);
+    text-decoration: none;
+}
+/* Pseudo Class */
+a:hover{
+    color: rgb(224, 185, 92);
+    font-weight: bold;
+}
+/* Child selector */
+ul>li{
+    font-weight: bolder;
+    list-style-type: lower-roman;
+}
+/* Descendant Selector */
+ul li{
+    color: rgb(215, 162, 218);
+}
+
+/* Pseudo Elements */
+a::before{
+    content: "🎂";
+}
