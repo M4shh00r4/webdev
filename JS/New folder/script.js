@@ -28,4 +28,16 @@ function myFunctions(){
     else {
         document.getElementById("greetings").innerHTML=`Good night`;
     }
-}                 
+}  
+
+//While loop
+
+let text="";
+
+let i = 1;
+while(i<=10){
+    text += `the number is $(i) <br>`;
+    i++;
+}
+
+document.getElementById("acp").innerHTML = text;
