@@ -11,9 +11,9 @@ body {
     animation:manha_animates 3s infinite ;
 }
 h1{
-    font-family: "Delius Swash Caps", cursive;
-    font-size: 30px;
-    color: rgb(124, 88, 120);
+    
+    font-size: 30px;font-family: "Delius Swash Caps", cursive;
+    color: rgb(78, 54, 75);
     text-shadow: 5px 5px 5px;
     text-align: center;
 }
@@ -33,7 +33,7 @@ h1{
 
 @keyframes manha_animates{
     from{
-        background-color: rgb(243, 200, 200);
+        background-color: rgb(217, 170, 216);
     }
     to{
         background-color: rgb(230, 151, 210);
