@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+#todo-list {
+    list-style-type: none;
+    padding: 0;
+}
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border: 1px solid hsl(283, 27%, 66%);
+    margin: 5px 0px;
+    border-radius: 5px;
+}
+#new-task {
+    padding: 10px;
+    width: calc(100% - 22px);
+    margin-bottom: 10px;
+}
+button {
+    display: flex;
+    padding: 10px 20px;
+    background-color: rgb(193, 173, 207);
+    color: azure;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+}
+button:hover{
+    background-color: rgb(150, 127, 155);
+}
+.delete-btn {
+    background-color: rgb(89, 73, 104);
+}
+.delete-btn:hover {
+    background-color: rgb(176, 148, 202);
+}
