@@ -9,11 +9,11 @@ h1{
     text-align: center;
 }
 
-#todo-list {
+#shopping-list {
     list-style-type: none;
     padding: 0;
 }
-.todo-item {
+.shopping-item {
     display: flex;
     justify-content: space-between;
     padding: 10px;
@@ -37,10 +37,10 @@ button {
     justify-content: center;
 }
 button:hover{
-    background-color: rgb(131, 189, 211);
+    background-color: rgb(61, 86, 96);
 }
 .delete-btn {
-    background-color: rgb(94, 118, 132);
+    background-color: rgb(116, 140, 154);
 }
 .delete-btn:hover {
     background-color: rgb(0, 0, 0);
