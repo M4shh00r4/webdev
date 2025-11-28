@@ -110,7 +110,7 @@ body {
 
     display: inline-block;
 
-    background: #ff6b6b;
+    background: #6bc9ff;
 
     color: white;
 
@@ -128,7 +128,7 @@ body {
 
 .btn:hover {
 
-    background: #428180;
+    background: #444281;
 
     transform: translateY(-2px);
 
@@ -299,7 +299,7 @@ body {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(-45deg, rgb(139, 216, 245), rgb(102, 102, 202), rgb(42, 40, 108), rgb(155, 193, 240));
+    background: linear-gradient(-45deg, rgb(139, 216, 245), rgb(51, 168, 215), rgb(70, 127, 218), rgb(155, 193, 240));
     background-size: 400% 400%;
     animation: gradientBG 15s ease infinite;
     color: azure;
@@ -363,6 +363,89 @@ body {
     text-decoration: none;
     font-weight: bold;
     border-radius: 50px;
+}
+
+/* Floating image animation */
+.hero-image {
+    position: absolute;
+    right: 10%;
+    max-width: 40%;
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 1s ease 1.2s forward, float 6s ease-in-out 2s infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Decorative elements */
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    background: #333;
+}
+
+.circle-1 {
+    width: 300px;
+    height: 300px;
+    top: -100px;
+    left: -100px;
+    animation: pulse 8s infinite;
+}
+
+.circle-2 {
+    width: 150px;
+    height: 150px;
+    bottom: 50px;
+    right: 100px;
+    animation: pulse 6s infinite 2s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+    50% {
+         transform: scale(1.2);
+         opacity: 0.2;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+    .hero-content {
+        max-width: 100%;
+    }
+    .hero-image{
+        position: relative;
+        right: auto;
+        max-width: 80%;
+        margin-top: 50px;
+    }
+
+    .hero h1 {
+        font-size: 2.2rem;
+        font-weight: 800;
+    }
 }
 
 /* Footer Styles */
