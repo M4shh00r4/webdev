@@ -451,15 +451,17 @@ body {
 .cards-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 50px 10px;
-    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 3200px;
+    margin: 50px 70px;
+    gap: 50px;
 }
 
 .card {
     background-color: azure;
     border-radius: 8px;
+    /* margin: 0px 40px; */
     box-shadow: 0 4px 8px black;
     overflow: hidden;
     flex: 1;
